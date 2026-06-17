@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hayssam Al Mawla — Full-Stack & AI Engineer</title>
+<style>
+  :root{
+    --bg:#0e1116; --card:#171b22; --line:#262d38; --text:#e6e9ee; --muted:#9aa4b2;
+    --accent:#ffd400; --accent2:#4da3ff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  a{color:var(--accent2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+  header{padding:70px 0 40px;border-bottom:1px solid var(--line)}
+  .tag{display:inline-block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+  h1{font-size:42px;line-height:1.1;margin-bottom:10px}
+  .role{font-size:19px;color:var(--muted);margin-bottom:18px}
+  .lead{font-size:17px;max-width:660px;color:#cbd3dd}
+  .links{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{border:1px solid var(--line);background:var(--card);padding:9px 16px;border-radius:8px;color:var(--text);font-size:14px}
+  .btn.primary{background:var(--accent);color:#111;border-color:var(--accent);font-weight:600}
+  section{padding:42px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .skill h3{font-size:14px;color:var(--accent);margin-bottom:4px}
+  .skill p{font-size:14px;color:#cbd3dd}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .card h3{font-size:17px;margin-bottom:6px}
+  .card .stack{font-size:12.5px;color:var(--accent2);margin-bottom:10px}
+  .card p{font-size:14px;color:#cbd3dd;margin-bottom:12px}
+  .card .note{font-size:12px;color:var(--muted)}
+  .exp{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .exp:last-child{border-bottom:none}
+  .exp .left b{display:block}
+  .exp .left span{color:var(--muted);font-size:14px}
+  .exp .date{color:var(--muted);font-size:14px;white-space:nowrap}
+  footer{padding:40px 0 70px;color:var(--muted);font-size:14px}
+  .footer-links{margin-top:10px;display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="tag">Full-Stack Engineer · Fintech · AI</span>
+    <h1>Hayssam Al Mawla</h1>
+    <div class="role">Building secure end-to-end products for banking &amp; financial platforms — and AI-powered tools on the side</div>
+    <p class="lead">
+      Senior Full-Stack Developer with 5+ years shipping web, mobile &amp; enterprise products across fintech, SAP,
+      and value-added services &mdash; React &amp; Angular (TypeScript) front ends over Java Spring and Node.js
+      microservices, on PostgreSQL, Docker &amp; AWS. Now building AI &amp; automation tools &mdash; LLM-powered
+      pipelines, agents, and trading bots &mdash; through self-driven projects to stay at the front of the AI industry.
+    </p>
+    <div class="links">
+      <a class="btn primary" href="mailto:mawlahayssam411@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/hayssam-mawla-2bb468209/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/hayssam-stack-testing" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="#projects">Projects</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Core Skills</h2>
+    <div class="skills">
+      <div class="skill"><h3>Languages</h3><p>TypeScript, JavaScript, Java, Python, PHP, C#, SQL</p></div>
+      <div class="skill"><h3>Frontend</h3><p>React, Angular, Vue, SAPUI5 / Fiori, Flutter, HTML, CSS, Bootstrap</p></div>
+      <div class="skill"><h3>Backend &amp; APIs</h3><p>Java Spring, Node.js, Laravel, REST, OData, GraphQL, Microservices</p></div>
+      <div class="skill"><h3>AI &amp; Automation</h3><p>LLM integration, AI agents, n8n, generative-AI content pipelines</p></div>
+      <div class="skill"><h3>Data &amp; DevOps</h3><p>PostgreSQL, MySQL, Docker, AWS, Linux, Git</p></div>
+      <div class="skill"><h3>Domains</h3><p>Core Banking, Fintech, Payment Gateways, VAS</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>AI Social-Media Content Pipeline</h3>
+        <div class="stack">Python · Claude API · ElevenLabs · Runway</div>
+        <p>Automated pipeline that scripts, voices and renders short-form videos end-to-end and auto-posts to Instagram, Facebook &amp; YouTube — chaining Claude (script) → ElevenLabs (voice) → AI avatar → Runway (video).</p>
+        <div class="note">Self-driven AI project · code available on request</div>
+      </div>
+      <div class="card">
+        <h3>Autonomous Crypto-Futures Trading Bot</h3>
+        <div class="stack">JavaScript · Node.js · Binance API · WebSockets</div>
+        <p>Algorithmic futures trading bot integrating the Binance API with real-time market data and strategy logic. Currently validated on Binance testnet.</p>
+        <div class="note">Self-driven · code available on request</div>
+      </div>
+      <div class="card">
+        <h3>Online Ninja Card-Battle Game</h3>
+        <div class="stack">Unity · C# · Nakama · TypeScript · Docker</div>
+        <p>Real-time multiplayer card-battle game: a Unity/C# client backed by a Nakama lockstep PvP server (TypeScript, Docker). Playable prototype, in active development.</p>
+        <div class="note">In active development</div>
+      </div>
+      <div class="card">
+        <h3>Maison Cocody — E-Commerce Store</h3>
+        <div class="stack">WordPress · WooCommerce · PHP</div>
+        <p>International e-commerce store built from scratch and maintained: multi-currency checkout (USD / EUR / CAD / LBP) and worldwide shipping.</p>
+        <div class="note"><a href="https://maisoncocody.com" target="_blank" rel="noopener">Visit live site →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="exp"><div class="left"><b>Senior Full-Stack Developer</b><span>My Monty — core banking, e-wallet &amp; card platform</span></div><div class="date">2022 – Present</div></div>
+    <div class="exp"><div class="left"><b>Freelance Full-Stack Engineer</b><span>Arte-Beat — event ticketing · Vue / Laravel / GraphQL / AWS</span></div><div class="date">2023 – 2024</div></div>
+    <div class="exp"><div class="left"><b>Full-Stack Developer</b><span>Rudr Tech — SAPUI5 / SAP S/4HANA / Node.js (maritime)</span></div><div class="date">2022 – 2023</div></div>
+    <div class="exp"><div class="left"><b>Full-Stack Developer</b><span>Expartec — Flutter / Angular / Node.js</span></div><div class="date">2022</div></div>
+    <div class="exp"><div class="left"><b>Country Manager / Full-Stack Dev</b><span>MobiMarTech — VAS &amp; payment-gateway integrations</span></div><div class="date">2020 – 2022</div></div>
+    <div class="exp"><div class="left"><b>Freelance Course Author</b><span>SABIS International School — PHP, AI, databases, HTML courses</span></div><div class="date">~2 yrs</div></div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="exp"><div class="left"><b>MSc, Computer &amp; Communication Engineering</b><span>International Lebanese University</span></div><div class="date">2020 – 2022</div></div>
+    <div class="exp"><div class="left"><b>BSc, Computer Engineering</b><span>International Lebanese University — GPA 3.67, Dean's List</span></div><div class="date">2017 – 2020</div></div>
+  </section>
+
+  <footer>
+    Let's build something. — Hayssam Al Mawla
+    <div class="footer-links">
+      <a href="mailto:mawlahayssam411@gmail.com">mawlahayssam411@gmail.com</a>
+      <a href="https://www.linkedin.com/in/hayssam-mawla-2bb468209/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://maisoncocody.com" target="_blank" rel="noopener">Maison Cocody</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
